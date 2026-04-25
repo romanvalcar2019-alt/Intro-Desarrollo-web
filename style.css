@@ -9,4 +9,17 @@ h1 {
     color: #FD98FB; /* El color de la cabecera */
     font-size: 24px; /* El tamaño de la fuente de la cabecera */
     font-family: Sans-serif; /* La familia tipográfica utilizada en la cabecera */
+    animation: color-change 2s infinite;
+
+}
+
+@keyframes color-change {
+  0%   { color: blue; }
+  50%  { color: red; }
+  100% { color: blue; }
+}
+
+
+p {
+     font-size: 50px; /* El tamaño de la fuente de la cabecera */
 }
